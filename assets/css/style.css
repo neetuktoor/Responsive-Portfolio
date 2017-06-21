@@ -140,7 +140,10 @@ h3,
   margin-right: 0;
 }
 
-/* main */
+ul {
+    border-left: 1px solid #efefef;
+
+}
 
 #main-container {
   padding-top: 130px;
@@ -237,3 +240,114 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Width at 980 and below (for desktop)*/
+@media screen and (max-width: 980px) {
+  #masthead {
+  width: 100%;
+  }
+
+.main-section{
+  width: 55%;
+  max-width: 980px;
+  }
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  }
+
+footer {
+  width: 100%;
+  }
+
+}
+  
+/*Width at 768 and below (for tablet)*/
+@media screen and (max-width: 768px) {
+  
+  #masthead {
+    width: 100%;
+  }
+
+  .main-section{
+   width: 100%;
+  }
+
+  .container{
+  width: 90%;
+  max-width: 769px;
+  margin: 0 auto;
+  }
+
+  .sidebar {
+  width: 100%;
+  max-width: none;
+  }
+
+  footer {
+  width: 100%;
+  }
+}
+  
+/*Width at 640 and below (for phone lanscape orientation)*/
+@media screen and (max-width: 640px) {
+
+  #masthead {
+    width: 100%;
+    position: static;
+  }
+
+  nav{
+    width: 100%;
+    text-align: center; 
+    margin-top: 0px;
+}
+
+  nav a{
+    padding-top: 0px;
+  }
+
+  #logo {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .main-section{
+   width: 100%;
+  }
+
+  .container{
+  width: 90%;
+  max-width: 640px;
+  /*padding-top: 0px;*/
+  }
+
+  #main-container {
+    padding-top: 0px;
+  }
+
+  .sidebar {
+  width: 100%;
+  max-width: none;
+  }
+
+.auth-image {
+  width: 100%;
+  }
+
+
+  footer {
+  width: 100%;
+  }
+
+  nav a{
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+  }
+
+}
+  
+
+  
